@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<env>
+
+	<!-- GENERAL Territories Section -->
+	<territories>
+
+		<file path="env/zombie_territories.xml" />
+		<file path="env/cattle_territories.xml" /> 
+		<file path="env/sheep_goat_territories.xml" /> 
+		<file path="env/red_deer_territories.xml" />
+		<file path="env/roe_deer_territories.xml" />
+		<file path="env/wild_boar_territories.xml" />
+		<file path="env/wolf_territories.xml" />
+		<file path="env/crab_territories.xml" />
+		<file path="env/bear_territories.xml" /> 
+		<file path="env/polarbear_territories.xml" /> 
+		<file path="env/hen_territories.xml" />		
+		<file path="env/pig_territories.xml" />
+		
+		<!-- <file path="env/hare_territories.xml" /> -->
+		
+		
+		
+		<territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
+			<file usable="wolf_territories" />
+		</territory>
+		
+		
+		<!-- HEN -->
+		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
+			<file usable="hen_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_GallusGallusDomesticus" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_GallusGallusDomesticusF_Brown" chance="1" />
+				<spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
+				<spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
+			</agent>
+
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+
+		<!-- HARE -->
+		<territory type="Ambient" name="AmbientHare" behavior="DZAmbientLifeGroupBeh">
+			<file usable="hare_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_LepusEuropaeus" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_LepusEuropaeus" chance="1" />
+			</agent>
+
+			<item name="globalCountMax" val="0" />
+			<item name="zoneCountMin" val="3" />
+			<item name="zoneCountMax" val="5" />
+			<item name="playerSpawnRadiusNear" val="15" />
+			<item name="playerSpawnRadiusFar" val="200" />
+		</territory>
+		
+		<!-- INFECTED -->
+		<territory type="Herd" name="ZombieTest" behavior="DZdomesticGroupBeh">
+			<file usable="zombie_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male">
+				<spawn configName="ZombieMale3_NewAI" />
+				<item name="countMin" val="0" />
+				<item name="countMax" val="0" />
+			</agent>
+			<agent type="Female">
+				<spawn configName="ZombieFemale3_NewAI" />
+				<item name="countMin" val="0" />
+				<item name="countMax" val="0" />
+			</agent>
+			
+			<!-- count of herds of this type in the map -->
+			<item name="herdsCount" val="0" />
+		</territory>
+		
+		<!-- Braunbär -->
+		<territory type="Ambient" name="AmbientBear" behavior="BlissBearGroupBeh">
+			<file usable="bear_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_UrsusArctos" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_UrsusArctos" chance="1" />
+			</agent>
+
+			<item name="globalCountMax" val="30" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="100" />
+			<item name="playerSpawnRadiusFar" val="200" />
+		</territory>
+		
+		<!-- Polarbär -->
+		<territory type="Ambient" name="AmbientPolarbear" behavior="BlissBearGroupBeh">										
+            <file usable="polarbear_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_Polarbear" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_Polarbear" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="1" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+		
+		<!-- Kuh / Stier -->
+		<territory type="Ambient" name="AmbientCow" behavior="DZdomesticGroupBeh">
+            <file usable="cattle_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_BosTaurus_Brown" chance="1" />
+				<spawn configName="Animal_BosTaurus_Spotted" chance="1" />
+				<spawn configName="Animal_BosTaurus_White" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_BosTaurusF_Brown" chance="1" />
+				<spawn configName="Animal_BosTaurusF_Spotted" chance="1" />
+				<spawn configName="Animal_BosTaurusF_White" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="2" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+		
+		<!-- Hirsch -->
+		<territory type="Ambient" name="AmbientDeer" behavior="DZDeerGroupBeh">
+            <file usable="red_deer_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_CervusElaphus" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_CervusElaphusF" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="2" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+		
+		<!-- Reh -->
+		<territory type="Ambient" name="AmbientRoeDeer" behavior="DZDeerGroupBeh">
+            <file usable="roe_deer_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_CapreolusCapreolus" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_CapreolusCapreolusF" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="2" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+		
+		<!-- Ziege -->
+		<territory type="Ambient" name="AmbientGoat" behavior="DZSheepGroupBeh">
+            <file usable="sheep_goat_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_CapraHircus_Black" chance="1" />
+				<spawn configName="Animal_CapraHircus_Brown" chance="1" />
+				<spawn configName="Animal_CapraHircus_White" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_CapraHircusF" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="3" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+
+		<!-- Schwein -->
+		<territory type="Ambient" name="AmbientPig" behavior="DZSheepGroupBeh">
+            <file usable="pig_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_SusDomesticus" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_SusDomesticus" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="3" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+		
+		<!-- Schaf -->
+		<territory type="Ambient" name="AmbientSheep" behavior="DZSheepGroupBeh">
+            <file usable="sheep_goat_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_OvisAries" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_OvisAriesF" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="3" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+
+		<!-- Wildschwein -->
+		<territory type="Ambient" name="AmbientWildBoar" behavior="DZDeerGroupBeh">
+            <file usable="wild_boar_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_SusScrofa" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_SusScrofa" chance="1" />
+            </agent>
+
+            <item name="globalCountMax" val="30" />
+            <item name="zoneCountMin" val="1" />
+            <item name="zoneCountMax" val="3" />
+            <item name="playerSpawnRadiusNear" val="100" />
+            <item name="playerSpawnRadiusFar" val="200" />
+        </territory>
+	</territories>
+</env>
