@@ -34,11 +34,13 @@
 		<usage name="SeasonalEvent"/>		
 		<usage name="ContaminatedArea"/>		
 		<usage name="Crypt" />		
-		<usage name="TempleCore" />		
+		<usage name="TempleMjHandle" />		
+		<usage name="TempleMjHead" />		
 		<usage name="PlantsA" />	
 		<usage name="PlantsB" />	
 		<usage name="PlantsC" />		
 		<usage name="Special"/>
+		<usage name="SMK"/>
         <usage name="Lunapark"/>
         <usage name="Underground"/>		
 		<usage name="Historical"/>

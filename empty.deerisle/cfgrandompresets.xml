@@ -407,7 +407,7 @@
 			<item name="UKAssVest_Olive" chance="0.2" />
 			<item name="SmershVest" chance="0.05" />
 		</attachments>
-		<attachments chance="0.15" name="bagsArmy">
+		<attachments chance="0.05" name="bagsArmy">
 			<item name="AssaultBag_Green" chance="0.10" />
 			<item name="AssaultBag_Ttsko" chance="0.10" />
 			<item name="AssaultBag_Black" chance="0.10" />
@@ -645,4 +645,24 @@
 			<item name="Mag_STANAG_60Rnd" chance="0.05" />
 			<item name="Mag_AKM_Drum75Rnd" chance="0.05" />
 		</cargo>
+		<attachments chance="0.70" name="HeavyArmorArmyJMC">
+			<item name="PlateCarrierVest" chance="0.1" />
+			<item name="UKAssVest_Black" chance="0.2" />
+			<item name="UKAssVest_Camo" chance="0.2" />
+			<item name="UKAssVest_Khaki" chance="0.2" />
+			<item name="UKAssVest_Olive" chance="0.2" />
+			<item name="SmershVest" chance="0.1" />
+		</attachments>		
+		<attachments chance="0.70" name="WinterSoldier">
+			<item name="Heatpack" chance="0.1" />
+			<item name="CharcoalTablets" chance="0.1" />
+			<item name="DuctTape" chance="0.1" />
+			<item name="CombatKnife" chance="0.1" />
+			<item name="PetrolLighter" chance="0.1" />
+			<item name="Matchbox" chance="0.1" />
+			<item name="DisinfectantAlcohol" chance="0.1" />
+			<item name="Battery9V" chance="0.1" />
+			<item name="TunaCan" chance="0.1" />
+			<item name="SardinesCan" chance="0.1" />
+		</attachments>		
 </randompresets>

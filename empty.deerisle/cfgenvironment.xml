@@ -11,6 +11,7 @@
 		<file path="env/roe_deer_territories.xml" />
 		<file path="env/wild_boar_territories.xml" />
 		<file path="env/wolf_territories.xml" />
+		<file path="env/arcticwolf_territories.xml" />
 		<file path="env/crab_territories.xml" />
 		<file path="env/bear_territories.xml" /> 
 		<file path="env/polarbear_territories.xml" /> 
@@ -25,6 +26,9 @@
 			<file usable="wolf_territories" />
 		</territory>
 		
+		<territory type="Herd" name="ArcticWolf" behavior="DZWolfGroupBeh">
+			<file usable="arcticwolf_territories" />
+		</territory>
 		
 		<!-- HEN -->
 		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">

@@ -1116,6 +1116,22 @@
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
+	<type name="InfectedSoldierHardJMC">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />			
+		<cargo preset="mixArmy" />
+		<attachments preset="HeavyArmorArmyJMC" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+	</type>
+	<type name="InfectedSoldierHardJMCWinter">		
+		<cargo preset="ammoArmy" />			
+		<cargo preset="mixArmy" />
+		<cargo preset="WinterSoldier" />
+		<attachments preset="HeavyArmorArmyJMC" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />		
+	</type>
 	
 	<!--City-->
 	<type name="ZmbF_Clerk_Normal_Blue">
