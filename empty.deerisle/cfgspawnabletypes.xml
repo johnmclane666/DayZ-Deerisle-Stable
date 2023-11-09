@@ -3809,9 +3809,8 @@
 		<attachments chance="0.75">
 			<item name="Mag_AKM_30Rnd" chance="1.00" />
 		</attachments>		
-	</type>		
-	</type>		
-		<type name="ttstg44">
+	</type>			
+	<type name="ttstg44">
 		<attachments chance="0.75">
 			<item name="Mag_AKM_30Rnd" chance="1.00" />
 		</attachments>		
