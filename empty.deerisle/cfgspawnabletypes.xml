@@ -3805,7 +3805,7 @@
 			<item name="Mag_STANAG_30Rnd" chance="1.00" />
 		</attachments>		
 	</type>		
-		<type name="ttstg44">
+	<type name="ttstg44">
 		<attachments chance="0.75">
 			<item name="Mag_AKM_30Rnd" chance="1.00" />
 		</attachments>		
@@ -3814,9 +3814,8 @@
 		<attachments chance="0.75">
 			<item name="Mag_AKM_30Rnd" chance="1.00" />
 		</attachments>		
-	</type>		
-		</type>		
-		<type name="ttp90">
+	</type>			
+	<type name="ttp90">
 		<attachments chance="0.75">
 			<item name="ttp90mag" chance="1.00" />
 		</attachments>		
