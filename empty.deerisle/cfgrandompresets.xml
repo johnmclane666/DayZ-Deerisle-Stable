@@ -645,13 +645,16 @@
 			<item name="Mag_STANAG_60Rnd" chance="0.05" />
 			<item name="Mag_AKM_Drum75Rnd" chance="0.05" />
 		</cargo>
-		<attachments chance="0.70" name="HeavyArmorArmyJMC">
+		<attachments chance="0.40" name="HeavyArmorArmyJMC">
 			<item name="PlateCarrierVest" chance="0.1" />
 			<item name="UKAssVest_Black" chance="0.2" />
 			<item name="UKAssVest_Camo" chance="0.2" />
 			<item name="UKAssVest_Khaki" chance="0.2" />
 			<item name="UKAssVest_Olive" chance="0.2" />
 			<item name="SmershVest" chance="0.1" />
+		</attachments>		
+		<attachments chance="1.00" name="hatsArmyJMC">			
+			<item name="MilitaryBeret_Red" chance="1.00" />			
 		</attachments>		
 		<attachments chance="0.70" name="WinterSoldier">
 			<item name="Heatpack" chance="0.1" />
@@ -665,4 +668,29 @@
 			<item name="TunaCan" chance="0.1" />
 			<item name="SardinesCan" chance="0.1" />
 		</attachments>		
+		<cargo chance="0.40" name="ammoArmyJMC">	
+			<item name="AmmoBox_308Win_20Rnd" chance="0.05" />			
+			<item name="AmmoBox_357_20Rnd" chance="0.05" />			
+			<item name="AmmoBox_380_35Rnd" chance="0.05" />
+			<item name="AmmoBox_545x39_20Rnd" chance="0.05" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.05" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+			<item name="AmmoBox_9x29_20Rnd" chance="0.05" />
+			<item name="jmc_SnowOwl_Ammo" chance="0.05" />
+		</cargo>
+		<cargo chance="0.09" name="mixArmyJMC">
+			<item name="Mag_CMAG_40Rnd" chance="0.04" />
+			<item name="Mag_FAL_20Rnd" chance="0.04" />
+			<item name="Mag_M14_20Rnd" chance="0.04" />
+			<item name="Mag_STANAG_30Rnd" chance="0.04" />
+			<item name="Mag_SVD_10Rnd" chance="0.04" />
+			<item name="Mag_VAL_20Rnd" chance="0.04" />
+			<item name="Mag_VSS_10Rnd" chance="0.04" />
+			<item name="Mag_AK74_45Rnd" chance="0.04" />
+			<item name="Mag_AK101_30Rnd" chance="0.04" />
+			<item name="Mag_AKM_30Rnd" chance="0.04" />
+			<item name="Mag_AUG_30Rnd" chance="0.04" />
+			<item name="Mag_AKM_30Rnd" chance="0.04" />
+		</cargo>
 </randompresets>

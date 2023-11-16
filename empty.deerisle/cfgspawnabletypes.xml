@@ -1120,8 +1120,10 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />			
 		<cargo preset="mixArmy" />
+		<cargo preset="ammoArmyJMC" />	
+		<cargo preset="mixArmyJMC" />
 		<attachments preset="HeavyArmorArmyJMC" />
-		<attachments preset="hatsArmy" />
+		<attachments preset="hatsArmyJMC" />
 		<attachments preset="bagsArmy" />
 	</type>
 	<type name="InfectedSoldierHardJMCWinter">		

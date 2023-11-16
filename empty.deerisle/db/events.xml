@@ -233,13 +233,14 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="25" type="ZmbM_PatrolNormal_Autumn"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
             <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
             <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="InfectedSoldierHardJMC"/>            
         </children>
     </event>
     <event name="InfectedArmyHard">
@@ -256,15 +257,16 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_PatrolNormal_Autumn"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
-            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_PatrolNormal_PautRev"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
             <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Heavy_Woodland"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Officer_Desert"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_usSoldier_Heavy_Woodland"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_usSoldier_Officer_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_usSoldier_normal_Woodland"/>
+			<child lootmax="5" lootmin="0" max="0" min="6" type="InfectedSoldierHardJMC"/>            
         </children>
     </event>
     <event name="InfectedArmyHardJMC">
@@ -282,7 +284,7 @@
         <active>1</active>
         <children>
             <child lootmax="5" lootmin="0" max="0" min="90" type="InfectedSoldierHardJMC"/>            
-			<child lootmax="5" lootmin="0" max="0" min="10" type="InfectedSoldierHardJMC"/>            
+			<child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_usSoldier_Heavy_Woodland"/>            
         </children>
     </event>	
 	<event name="InfectedArmyHardJMCWinter">
@@ -749,10 +751,10 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>6</nominal>
-        <min>6</min>
-        <max>6</max>
-        <lifetime>2100</lifetime>
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>4</max>
+        <lifetime>3000</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>350</distanceradius>
