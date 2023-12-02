@@ -1122,17 +1122,19 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="ammoArmyJMC" />	
 		<cargo preset="mixArmyJMC" />
-		<attachments preset="HeavyArmorArmyJMC" />
-		<attachments preset="hatsArmyJMC" />
-		<attachments preset="bagsArmy" />
+		<cargo preset="STAG_Clothing" />	
+		<attachments preset="STAG_Vests" />
+		<attachments preset="STAG_Hats" />
+		<attachments preset="STAG_Bags" />
 	</type>
 	<type name="InfectedSoldierHardJMCWinter">		
-		<cargo preset="ammoArmy" />			
-		<cargo preset="mixArmy" />
+		<cargo preset="ammoArmy" />					
 		<cargo preset="WinterSoldier" />
-		<attachments preset="HeavyArmorArmyJMC" />
-		<attachments preset="hatsArmy" />
-		<attachments preset="bagsArmy" />		
+		<cargo preset="ammoArmyJMC" />			
+		<cargo preset="STAG_Clothing" />			
+		<attachments preset="STAG_Hats" />
+		<attachments preset="STAG_Bags" />		
+		<attachments preset="STAG_Vests" />
 	</type>
 	
 	<!--City-->

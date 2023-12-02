@@ -234,13 +234,13 @@
         <active>1</active>
         <children>
             <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_Autumn"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
-            <child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_PatrolNormal_PautRev"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_SoldierNormal"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_usSoldier_normal_Desert"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_usSoldier_normal_Woodland"/>
-			<child lootmax="5" lootmin="0" max="0" min="15" type="InfectedSoldierHardJMC"/>            
+            <child lootmax="5" lootmin="0" max="0" min="11" type="ZmbM_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="16" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="11" type="ZmbM_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="11" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="11" type="ZmbM_usSoldier_normal_Woodland"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="InfectedSoldierHardJMC"/>            
         </children>
     </event>
     <event name="InfectedArmyHard">

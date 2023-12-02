@@ -637,18 +637,23 @@
     <item name="Mag_STANAG_60Rnd" chance="0.05" />
     <item name="Mag_AKM_Drum75Rnd" chance="0.05" />
   </cargo>
-  <attachments chance="0.40" name="HeavyArmorArmyJMC">
+  <attachments chance="0.10" name="HeavyArmorArmyJMC">
     <item name="PlateCarrierVest" chance="0.1" />
-    <item name="UKAssVest_Black" chance="0.2" />
-    <item name="UKAssVest_Camo" chance="0.2" />
-    <item name="UKAssVest_Khaki" chance="0.2" />
-    <item name="UKAssVest_Olive" chance="0.2" />
+    <item name="UKAssVest_Black" chance="0.1" />
+    <item name="UKAssVest_Camo" chance="0.1" />
+    <item name="UKAssVest_Khaki" chance="0.1" />
+    <item name="UKAssVest_Olive" chance="0.1" />
     <item name="SmershVest" chance="0.1" />
+	<item name="PressVest_Blue" chance="0.1" />
+    <item name="PressVest_LightBlue" chance="0.1" />
+	<item name="HuntingVest" chance="0.1" />	
+	<item name="PlateCarrierVest" chance="0.10" />
   </attachments>
-  <attachments chance="1.00" name="hatsArmyJMC">
-    <item name="MilitaryBeret_Red" chance="1.00" />
+  <attachments chance="1.00" name="STAG_Hats">
+    <item name="STAG_Clothing_Beret" chance="0.50" />
+	<item name="STAG_Clothing_Cap" chance="0.50" />
   </attachments>
-  <attachments chance="0.70" name="WinterSoldier">
+  <cargo chance="0.10" name="WinterSoldier">
     <item name="Heatpack" chance="0.1" />
     <item name="CharcoalTablets" chance="0.1" />
     <item name="DuctTape" chance="0.1" />
@@ -659,8 +664,8 @@
     <item name="Battery9V" chance="0.1" />
     <item name="TunaCan" chance="0.1" />
     <item name="SardinesCan" chance="0.1" />
-  </attachments>
-  <cargo chance="0.40" name="ammoArmyJMC">
+  </cargo>
+  <cargo chance="0.30" name="ammoArmyJMC">
     <item name="AmmoBox_308Win_20Rnd" chance="0.05" />
     <item name="AmmoBox_357_20Rnd" chance="0.05" />
     <item name="AmmoBox_380_35Rnd" chance="0.05" />
@@ -685,4 +690,24 @@
     <item name="Mag_AUG_30Rnd" chance="0.04" />
     <item name="Mag_AKM_30Rnd" chance="0.04" />
   </cargo>
+  <attachments chance="0.2" name="STAG_Bags">
+    <item name="STAG_Clothing_6sh118" chance="0.1" />
+    <item name="STAG_Clothing_ArmyBackpack" chance="0.1" />
+    <item name="STAG_Clothing_CoyoteBag" chance="0.1" />
+    <item name="STAG_Clothing_MountainBag" chance="0.1" />    
+  </attachments>  
+  <attachments chance="0.2" name="STAG_Vests">
+    <item name="STAG_Clothing_Vest" chance="0.3" />
+    <item name="STAG_Clothing_PlateCarrier" chance="0.3" />    
+  </attachments>   
+  <cargo chance="0.2" name="STAG_Clothing">
+    <item name="STAG_Clothing_Armband" chance="0.1" />
+    <item name="STAG_Clothing_Boots" chance="0.1" />
+    <item name="STAG_Flag_Gespiegelt" chance="0.1" />
+    <item name="STAG_Clothing_TacticalGloves" chance="0.1" />
+    <item name="STAG_Clothing_PlateCarrierHolster" chance="0.1" />
+    <item name="STAG_Clothing_M65_Jacket" chance="0.1" />
+    <item name="STAG_Clothing_Cargo_Pants" chance="0.1" />
+    <item name="STAG_Clothing_Pouches" chance="0.1" />    
+  </cargo>  
 </randompresets>
