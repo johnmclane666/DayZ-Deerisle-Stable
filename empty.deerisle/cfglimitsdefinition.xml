@@ -41,7 +41,6 @@
 		<usage name="PlantsC" />		
 		<usage name="Special"/>
 		<usage name="SMK"/>
-        <usage name="Lunapark"/>
         <usage name="Underground"/>		
 		<usage name="Historical"/>
 	</usageflags>
