@@ -6931,6 +6931,7 @@
 				</container>
 		</group>
 		<group name="Land_Mil_Barracks6" lootmax="25">
+                <usage name="Military" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
