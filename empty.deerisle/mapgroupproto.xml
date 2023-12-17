@@ -8572,6 +8572,7 @@
 				</container>
 		</group>
 		<group name="Land_Mil_Airfield_HQ" lootmax="20">
+                <usage name="Military"/>
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
